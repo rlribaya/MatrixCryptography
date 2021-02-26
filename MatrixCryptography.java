@@ -31,7 +31,7 @@ public class MatrixCryptography {
         for (int i = 0; i < message.length; i += 3) {
             int matrix[] = new int[3];
             System.arraycopy(message,i, matrix, 0, 3);
-            System.out.println("1x3 Array #" + (i+1) + ": ");
+            System.out.println("1x3 Array #" + (i/3+1) + ": ");
             arrayDisplay(matrix);
             output[i/3] = multiply(matrix, matrixA);
         }
@@ -49,6 +49,7 @@ public class MatrixCryptography {
             for (int j = 0; j < matrix[i].length; j++) 
                 matrix[i][j] = s.nextInt();
         }
+        s.nextLine();
     }
     public static int[] multiply(int matrixA[], int matrixB[][]) {
          int product[] = new int[matrixA.length];
