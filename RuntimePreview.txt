@@ -1,0 +1,28 @@
+NETBEANS RUNTIME:
+
+run:
+Cryptography Using Matrices
+Please input a 3x3 invertible matrix
+Please input row 1 (separate each value by a <space>):
+1 -2 2
+Please input row 2 (separate each value by a <space>):
+-1 1 3
+Please input row 3 (separate each value by a <space>):
+1 -1 -4
+Please input a messasge:
+MEET ME ON MONDAY
+1x3 Array #1: 
+13   5   5   
+1x3 Array #2: 
+20   0   13   
+1x3 Array #3: 
+5   0   15   
+1x3 Array #4: 
+14   0   13   
+1x3 Array #5: 
+15   14   4   
+1x3 Array #6: 
+1   25   0   
+Encoded Message: 
+13   -26   21   33   -53   -12   20   -25   -50   27   -41   -24   5   -20   56   -24   23   77   
+BUILD SUCCESSFUL
